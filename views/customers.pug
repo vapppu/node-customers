@@ -1,0 +1,23 @@
+doctype html 
+html 
+    head 
+        title Customers 
+        style
+            include ../reset.css
+            include ../layout.css
+    body 
+        h1 Customers 
+        a(href='/addcustomer').link Add new customer 
+        section
+            table             
+                tr
+                    th First name
+                    th Last name
+                    th E-mail 
+                    th Telephone 
+                each customer in customers 
+                    tr.customers
+                        td #{customer.firstname}
+                        td #{customer.lastname}
+                        td #{customer.email}
+                        td #{customer.phone}

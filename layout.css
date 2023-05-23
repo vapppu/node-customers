@@ -1,0 +1,57 @@
+html {
+  font-size: 62.5%;
+}
+body {
+  background-color: blanchedalmond;
+  font-size: 1.6rem;
+  font-family: sans-serif;
+  line-height: normal;
+  padding: 3rem;
+}
+h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+  margin-block-end: 2rem;
+}
+a {
+  display: block;
+  color: darkcyan;
+  text-align: center;
+  font-size: 2rem;
+  margin-block-end: 2rem;
+}
+section {
+  max-width: fit-content;
+  margin: auto;
+}
+table {
+  width: 100%;
+}
+th {
+  text-align: left;
+}
+tr {
+  margin-block-end: 1rem;
+}
+tr:nth-child(even) {
+  background-color: rgb(214, 198, 173);
+}
+th,
+td {
+  padding-inline: 2rem;
+  padding-block: 0.5rem;
+}
+.headers {
+  padding-bottom: 1rem;
+  text-align: left;
+}
+th {
+  font-weight: bold;
+}
+input {
+  display: block;
+  margin: auto;
+  margin-block-end: 1rem;
+  padding: 0.5rem;
+}
